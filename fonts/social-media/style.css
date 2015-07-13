@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'social-media';
+	src:url('fonts/social-media.eot?zbj5wy');
+	src:url('fonts/social-media.eot?#iefixzbj5wy') format('embedded-opentype'),
+		url('fonts/social-media.ttf?zbj5wy') format('truetype'),
+		url('fonts/social-media.woff?zbj5wy') format('woff'),
+		url('fonts/social-media.svg?zbj5wy#social-media') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'social-media';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+	content: "\e605";
+}
+.icon-dribbble-with-circle:before {
+	content: "\e600";
+}
+.icon-github-with-circle:before {
+	content: "\e601";
+}
+.icon-linkedin-with-circle:before {
+	content: "\e602";
+}
+.icon-tumblr-with-circle:before {
+	content: "\e603";
+}
+.icon-twitter-with-circle:before {
+	content: "\e604";
+}

@@ -1,0 +1,154 @@
+---
+layout: default
+title: Index
+permalink: /
+---
+<div class="section-light">
+  <header>
+    <!-- morphing graphic -->
+    <div class="container container-md">
+      <div class="me"></div>
+    </div>
+  </header>
+
+  <!-- intro -->
+  <div class="container container-md">
+    <div class="row">
+      <div class="col-6">
+        <p class="intro-p">{{ site.data.index.intro }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="container container-lg">
+    <div class="row">
+      <div class="col-6">
+        <blockquote>
+          <p>"{{ site.data.index.quoteOne }}"</p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- skills -->
+<hr class="skills">
+<section class="section section-skills">
+  <div class="container container-md">
+    <!-- skill one -->
+    <div class="row skill">
+      <div class="col-2">
+        <div class="svg-container">
+          <img src="images/interaction-design.png" alt="" width="170px">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="skill-content">
+          <h4 class="skill-title">{{site.data.index.skillTwo.heading}}</h4>
+          <p>{{site.data.index.skillTwo.description}}</p>
+          <cite>{{site.data.index.skillTwo.quote}}</cite>
+        </div>
+      </div>
+    </div>
+    <!-- skill two -->
+    <div class="row skill">
+      <div class="col-4">
+        <div class="skill-content">
+          <h4 class="skill-title">{{site.data.index.skillOne.heading}}</h4>
+          <p>{{site.data.index.skillOne.description}}</p>
+          <cite>{{site.data.index.skillOne.quote}}</cite>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="svg-container visual-design-container">
+          <img src="images/visual-design.png" alt="" width="170px">
+        </div>
+      </div>
+    </div>
+    <!-- skill three -->
+    <div class="row skill">
+      <div class="col-2">
+        <div class="svg-container">
+          <img src="images/development.png" alt="" width="170px">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="skill-content">
+          <h4 class="skill-title">{{site.data.index.skillThree.heading}}</h4>
+          <p>{{site.data.index.skillThree.description}}</p>
+          <p>{{site.data.index.skillThree.descriptionCont}}</p>
+          <cite>{{site.data.index.skillThree.quote}}</cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- work -->
+<hr class="work">
+<section class="recent-work">
+  <div class="container container-md">
+    <div class="row">
+      <div class="col-6">
+        <a href="http://web.medeohealth.com/medeohealth/" target="_blank"><img src="images/medeo-logo.svg" alt=""></a>
+        <p class="translation">(med•e•oh)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 border-right">
+        <div class="medeo-content">
+          <p>{{site.data.index.recentWork.description}}</p>
+          <p>{{site.data.index.recentWork.descriptionCont}}</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="medeo-testimonials">
+          <div class="medeo-testimonial">
+            <a href="https://twitter.com/stewart/status/425712348951617536" target="_blank"><i class="icon-twitter"></i> @stewart</a>
+            <cite>{{site.data.index.recentWork.quoteOne}}</cite>
+          </div>
+          <div class="medeo-testimonial">
+            <a href="https://twitter.com/Kimli/status/425693702095249408" target="_blank"><i class="icon-twitter"></i> @kimli</a>
+            <cite>{{site.data.index.recentWork.quoteTwo}}</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- mentors -->
+<hr class="mentors">
+<section class="my-mentors">
+  <div class="container container-md">
+    <div class="row">
+      <div class="col-6">
+      {% for testimonial in site.data.index.testimonials %}
+        <div class="testimonial">
+          <div class="avatar {{testimonial.avatar}}"></div>
+          <div class="name">{{ testimonial.name }}</div>
+          <div class="title">{{ testimonial.title }}</div>
+          <div class="quote">"{{ testimonial.quote }}"</div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="section-light">
+  <div class="container container-sm">
+    <cite class="footer-quote">{{site.data.index.footerQuote}}</cite>
+    <div class="cogs">
+      <img src="images/cog.svg" alt="" class="blue">
+      <img src="images/cog-grey.svg" alt="" class="grey">
+      <img src="images/cog-pink.svg" alt="" class="pink">
+    </div>
+    <div class="section social-media">
+      <ul>
+        <li><a href="{{site.data.index.socialMedia.twitter}}" target="_blank"><i class="icon-twitter-with-circle"></i></a></li>
+        <li><a href="{{site.data.index.socialMedia.dribbble}}" target="_blank"><i class="icon-dribbble-with-circle"></i></a></li>
+        <li><a href="{{site.data.index.socialMedia.github}}" target="_blank"><i class="icon-github-with-circle"></i></a></li>
+        <li><a href="{{site.data.index.socialMedia.tumblr}}" target="_blank"><i class="icon-tumblr-with-circle"></i></a></li>
+        <li><a href="{{site.data.index.socialMedia.linkedIn}}" target="_blank"><i class="icon-linkedin-with-circle"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

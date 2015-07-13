@@ -1,0 +1,34 @@
+intro: 'Hi, my name is Lee and I’m user centered designer focused on building exceptional software products. I currently work for a company called <a href="http://medeohealth.com" target="_blank">Medeo</a>. We are Canada’s most popular virtual care application. When i’m not knee deep in one’s and zero’s I can be found suffering through a <a href="https://en.wikipedia.org/wiki/CrossFit" target="_blank">WOD</a> or somewhere along BC’s beautiful coastline reading about Technology or Sports Science.'
+quoteOne: "I am a user centered designer, focused on building exceptional software products"
+skillOne:
+  heading: "Visual Design"
+  description: "Noam Tractinsky has proven that visual design is more than a coat of paint. It builds an emotional connection with the user. Emotions are responsible for every decision a human makes."
+  quote: '"Attractive things work better." -- Don Norman'
+skillTwo:
+  heading: "Interaction Design"
+  description: "Empathize, it's what I try to do best. Once I understand the user I can begin to understand their goals. That's when the fun begins."
+  quote: ''
+skillThree:
+  heading: "Development"
+  description: "I take it upon myself to understand the medium in which I work. I can be creative within a scope but never waste my time designing the impossible. I find it a lot more rewarding when I get to bring my creations to life."
+  descriptionCont: ""
+  quote: '"A bad workman always blames his tools" -- Unknown'
+recentWork:
+  description: "For the past two and a half years I have been helping build Medeo. Medeo is Canada’s most popular virtual care application. It allows health providers to see their patients online."
+  descriptionCont: "I was one of the first 15 employees and helped onboard over 500 health providers and 40,000 patients. Medeo was aquired by QHR Technologies in January 2015."
+  quoteOne: '"Installed app & registered in under 5 mins. Saw Dr. via in-app video call. Rx refill sent direct to pharmacy. All free. Canada, eh. /@medeo" -- <strong>Stewart Butterfield</strong>'
+  quoteTwo: 'Have I mentioned lately how much I love @medeo? Logged in from work and talked to a doctor for a referral within 10 minutes. So cool. -- <strong>Kimli</strong>'
+testimonials:
+  - name: "Chuck Bergeron"
+    avatar: "chuck"
+    title: "Co-Founder GoodBits"
+    quote: "Lee is golden. A unicorn among designers, he's able to create gorgeous and intuitive UI's for real world apps as well as code them up himself. Always positive and both capable and willing to learn and further sharpen his expertise."
+footerQuote: "Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity. -- Aaron Swartz"
+socialMedia:
+  twitter: "https://twitter.com/leemnelson_"
+  linkedIn: "https://ca.linkedin.com/in/leemnelson"
+  github: "https://github.com/lmnelson"
+  dribbble: "https://dribbble.com/leemnelson"
+  tumblr: "http://leemnelson.tumblr.com"
+
+
